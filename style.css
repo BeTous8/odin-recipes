@@ -1,27 +1,86 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* outline: 2px solid red; */
 }
 
-h1 {
-    font-size: 3rem;
+.topic {
+    /* margin: 1rem; */
+    padding-bottom: .1rem;
+    padding-top: .5rem;
+    background-color: azure;
+    
+}
+
+.title {
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    color: rgb(61, 61, 247);
-    margin-bottom: 4rem;
+    color: rgb(0, 0, 0);
+    /* margin-bottom: 2rem; */
+}
+
+.food-img {
+    /* margin-left: 20rem; */
+    width: 14rem;
+    height: 10rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 12rem;
+}
+
+.description {
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.desc {
+    color: rgb(25, 117, 198);
+    /* margin-bottom: -15px; */
+    font-size: 1.3rem;
+    display: inline-block;
+}
+
+.desc-para {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0 7rem;
+    padding: 1rem 5rem;
+    margin-top: -1.2rem;
+    text-align: center;
+
+}
+
+.ingredients {
+    background-color: rgb(254, 239, 221);
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+.ingred {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 5rem;
+    padding: 0 10rem;
+}
+
+.inred-c1 {
+
+}
+
+.inred-c2 {
+    margin: 0 10rem;
+    display: flex;
+    padding: 1rem;
+    
 }
 
 .menu {
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-
-li {
-    list-style-type: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    text-align: center;
+    list-style-type: none;
 }
+
 
 
 a {
@@ -29,19 +88,21 @@ a {
     color: black;
 }
 
-
-.food-img {
-    margin-left: 20rem;
+.one {
+    background-color: rgb(242, 246, 246);
+    padding: 2rem;
 }
 
-h2 {
-    color: brown;
+.two {
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
 }
 
-p {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+.three {
+    background-color: rgb(242, 246, 246);
+    padding: 2rem;
 }
+
 
 #return {
     color: blue;
@@ -53,5 +114,8 @@ p {
 
 .steps {
     /* background-color: aqua; */
+    /* margin: 0 7rem; */
+    padding: 1rem 12rem;
     margin-bottom: 2rem;
+    background-color: rgb(245, 241, 249);
 }
